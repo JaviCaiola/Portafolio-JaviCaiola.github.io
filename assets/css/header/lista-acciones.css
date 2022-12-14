@@ -1,0 +1,13 @@
+.lista__acciones{
+    display: flex;
+    align-items: center;
+}
+.lista__contacto{
+    color: #ffffff;
+}
+.lista__linkedin{
+    background: url(../../../recursos/img/In-White-34-┬«\ 1.png);
+}
+.lista__github{
+    background: url(../../../recursos/img/GitHub-Mark-Light-32px\ 1.png);
+}
