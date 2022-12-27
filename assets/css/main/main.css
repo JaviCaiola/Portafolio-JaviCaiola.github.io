@@ -3,3 +3,24 @@
     max-width: 1440px;
     height: 90vh;
 }
+.pagina__inicial{
+    color: #ffffff;
+}
+.photo{
+    display: flex;
+    padding-top: 10px;
+}
+.foto__perfil {
+    margin: 0 auto;
+    background: no-repeat center;
+    background-image: url("../../../recursos/img/LRM_20221014_211638\ \(1\).jpg");
+    background-size:100% auto;
+    padding: 15vh;
+    border-radius: 50%;
+}
+.titulo{
+    text-align: center;
+}
+#bash{
+    margin-top: 25vh;
+}
