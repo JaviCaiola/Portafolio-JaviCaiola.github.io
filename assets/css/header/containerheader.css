@@ -1,3 +1,12 @@
-.containerHeader {
+.header{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagen{
+    max-width: 7vh;
+}
+.lista__acciones{
+    margin: 0 auto;
+    gap: 2.6vh;
 }
