@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,45 +11,104 @@
     <link rel="stylesheet" href="./assets/css/header/nav.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main/mainMobile.css">
+    <link rel="stylesheet" href="./assets/css/main/sobre-mi.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/variables.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Overpass+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Overpass+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./recursos/fontello-2d8bd064/css/fontello.css">
     <title>Home - Javi Caiola</title>
+
 </head>
+
 <body>
     <header class="header">
         <img src="D:\Portafolio\recursos\img\logo_portaf.png" alt="logo portafolio" class="img-logo">
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
+        <div class="btn-menu">
+            <label for="btn-menu" class="demo-icon icon-home-outline"></label>
+        </div>
+
+
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="#">Contacto</a>
+                    <a href="#">Linkedin</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Instagram</a>
+                </nav>
+                <label for="btn-menu">✖️</label>
+            </div>
+        </div>
     </header>
+
     <main class="main">
+
         <section class="pagina__inicial">
             <div class="photo">
                 <img class="foto__perfil">
             </div>
             <div class="titulo">
                 <h1 class="presentacion">Hola Soy Javier!</h1>
-                <p class="descripcion">Front End Developer</p>
+                <span class="descripcion">Me gusta programar</span>
             </div>
             <div class="container" id="bash">
-                <ul class="row">
-                    <li class="col"><p>Sobre mi</p></li>
-                    <li class="col"><p>Skills</p></li>
-                    <li class="col"><p>Proyectos</p></li>
-                    <li class="col"><p>CV</p></li>
-                    <li class="col"><p>Formacion</p></li>
+                <ul class="row bash-row">
+                    <li class="col bash-col">
+                        <a href="">Sobre Mi</a>
+                    </li>
+                    <li class="col bash-col">
+                        <a>Skills</a>
+                    </li>
+                    <li class="col bash-col">
+                        <a>Proyectos</a>
+                    </li>
+                    <li class="col bash-col">
+                        <a>CV</a>
+                    </li>
+                    <li class="col bash-col">
+                        <a>Formacion</a>
+                    </li>
                 </ul>
             </div>
+        </section>
+        <section class="sobre-mi">
+            <article class="articulo-sobremi">
+                <img src="./recursos/img/jujuyrgb.png" alt="foto bola" class="img-logo img-sobremi">
+                <h1 class="presentacion">Sobre Mi</h1>
+                <p class="biograph">Soy de Jujuy Argentina, Me gusta la tecnologia y 
+                    todos los dias aprendo algo nuevo acerca de ello
+                    Soy muy dedicado a las cosas que me gustan, y mi
+                    filosofia de vida se basa en “Decidir, Estudiar y Aplicar”</p>
+            </article>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <ul class="row skill-row">
+                    <img src="./recursos/img/html-5.png" alt="html" class="col img-skil">
+                    <img src="./recursos/img/css-3.png" alt="css" class="col img-skil">
+                    <img src="./recursos/img/js.png" alt="javascript" class="col img-skil">
+                    <img src="./recursos/img/ruby.png" alt="ruby" class="col img-skil">
+                    <img src="./recursos/img/Git-Icon.png" alt="git" class="col img-skil">
+                    <img src="" alt="java" class="col img-skil">
+                </ul>
+            </div>
+        </section>
+        <section class="proyectos">
+
         </section>
     </main>
     <footer>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

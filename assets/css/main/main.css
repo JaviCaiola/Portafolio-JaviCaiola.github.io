@@ -1,63 +1,56 @@
-.main{
+.main {
     background: url("../../../recursos/img/pexels-luis-gomes-546819\ 1.svg");
     max-width: 1440px;
     height: 89vh;
 }
-.pagina__inicial{
+
+.pagina__inicial {
     color: #ffffff;
 }
-.photo{
+
+.photo {
     display: flex;
     padding-top: 10px;
 }
+
 .foto__perfil {
     margin: 0 auto;
     background: no-repeat center;
     background-image: url("../../../recursos/img/LRM_20221014_211638\ \(1\).jpg");
-    background-size:100% auto;
+    background-size: 100% auto;
     padding: 15vh;
     border-radius: 50%;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     font-family: var(--fuente-titulo);
 }
-.titulo p{
-    font-family: var(--fuente-descripcion);
+
+.presentacion {
+    font-weight: bold;
 }
-#bash{
+
+#bash {
     margin-top: 25vh;
 }
-@media screen and (max-width:400px) {
-    #bash{
-        margin-top: 1rem;
-    }
-    .photo{
-        padding-top: 5vh;
-    }
-    .foto__perfil{
-        padding: 10vh;
-    }
-    .titulo h1{
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    .row{
-        flex-direction: column;
+
+.bash-col a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (min-width:400px) {
+
+    .bash-col {
         text-align: center;
-        margin: 0 auto;
-        padding: 2rem 0 0 0;
+        transition: ease-out .5s;
     }
-    .col p{
-        justify-content: center;
-        background:rgba(70, 70, 70, 0.366);
-        font-size: 4vh;
-        border-radius: 5px;
-        transition: 0.4s;
-        font-weight: 15px;
-    }
-    .col p:hover{
-        background:rgba(255, 136, 1, 0.411);
-        transform: translate(3px);
+
+    .bash-col:hover {
+        background: rgba(255, 98, 0, 0.226);
+        cursor: pointer;
+        transition: ease .5s;
+        padding: .5rem;
     }
 }

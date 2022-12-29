@@ -1,0 +1,10 @@
+.sobre-mi{
+    display: flex;
+}
+.articulo-sobremi{
+    text-align: center;
+}
+.img-skil{
+    height: 10vh;
+    width: 10vh;
+}
