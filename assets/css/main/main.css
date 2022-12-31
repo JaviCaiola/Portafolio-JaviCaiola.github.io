@@ -1,11 +1,11 @@
 .main {
-    background: url("../../../recursos/img/pexels-luis-gomes-546819\ 1.svg");
     max-width: 1440px;
-    height: 89vh;
 }
 
 .pagina__inicial {
+    background: url("../../../recursos/img/pexels-luis-gomes-546819\ 1.svg");
     color: #ffffff;
+    height: 89vh;
 }
 
 .photo {
@@ -50,7 +50,8 @@
     .bash-col:hover {
         background: rgba(255, 98, 0, 0.226);
         cursor: pointer;
+        position: static;
         transition: ease .5s;
-        padding: .5rem;
+        padding: .1rem;
     }
 }
