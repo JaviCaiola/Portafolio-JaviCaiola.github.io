@@ -1,9 +1,11 @@
 .main {
-    max-width: 1440px;
+    width: 100%;
+    text-align: center;
 }
 
 .pagina__inicial {
-    background: url("../../../recursos/img/pexels-luis-gomes-546819\ 1.svg");
+    background: url("../../../recursos/img/pexels-luis-gomes-546819\ 1.svg") no-repeat;
+    background-size: 100%;
     color: #ffffff;
     height: 89vh;
 }
@@ -45,6 +47,7 @@
     .bash-col {
         text-align: center;
         transition: ease-out .5s;
+        padding: .5rem;
     }
 
     .bash-col:hover {
@@ -52,6 +55,5 @@
         cursor: pointer;
         position: static;
         transition: ease .5s;
-        padding: .1rem;
     }
 }
