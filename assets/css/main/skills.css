@@ -1,17 +1,20 @@
+
 .skills{
     background: linear-gradient(#1c1c1c, #ff8400);
     height: 100vh;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 .titulo-skills{
     color: var(--color-texto-claro);
 }
 .img-skil{
-    height: 10vh;
+    max-height: 3rem;
+    max-width: 3rem;
 }
 .img-bola{
     float: right;
     height: 35vh;
-    margin-right: 1rem;
+    margin: 0 1rem;
 }

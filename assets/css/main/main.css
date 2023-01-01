@@ -4,10 +4,31 @@
 }
 
 .pagina__inicial {
-    background: url("../../../recursos/img/pexels-luis-gomes-546819\ 1.svg") no-repeat;
-    background-size: 100%;
     color: #ffffff;
-    height: 89vh;
+    min-height: 89vh;
+    position: relative;
+
+}
+.contenidomain{
+    position: relative;
+    z-index: 2;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.55;
 }
 
 .photo {
@@ -34,7 +55,7 @@
 }
 
 #bash {
-    margin-top: 25vh;
+    margin-top: 22vh;
 }
 
 .bash-col a {
@@ -51,9 +72,18 @@
     }
 
     .bash-col:hover {
-        background: rgba(255, 98, 0, 0.226);
+        background: rgba(0, 0, 0, 0.271);
+        color: var(--color-texto-claro);
+        border-radius: 6px;
         cursor: pointer;
         position: static;
         transition: ease .5s;
+    }
+    .bash-col:active{
+        background: rgba(255, 124, 1, 0.207);
+        color: var(--color-texto-claro);
+    }
+    .bash-col a:visited{
+        color: var(--color-texto-claro);
     }
 }
