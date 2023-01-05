@@ -1,4 +1,3 @@
-
 .skills{
     background: linear-gradient(#1c1c1c, #ff8400);
     height: 100vh;
@@ -9,9 +8,13 @@
 .titulo-skills{
     color: var(--color-texto-claro);
 }
+.skill-row{
+    margin: 2rem 0;
+}
 .img-skil{
-    max-height: 3rem;
-    max-width: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 2vh 4vh;
 }
 .img-bola{
     float: right;
