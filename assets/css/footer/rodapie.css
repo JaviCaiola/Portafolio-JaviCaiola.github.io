@@ -1,0 +1,15 @@
+.rodapie{
+    height: 50vh;
+    background: var(--colorOscuroBackground);
+    text-align: center;
+    position: relative;
+}
+.rodapie-hijo{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.derechos{
+    color: var(--color-texto-claro);
+}

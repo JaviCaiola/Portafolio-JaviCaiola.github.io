@@ -1,3 +1,25 @@
 .formacion{
     height: 100vh;
+    background: var(--fondoNaranja);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.contenido-formacion{
+    text-align: center;
+    padding-top: 20vh;
+}
+.parrafo{
+    margin: 0 10vh;
+}
+/* DISEÑO DE LA BASE FORMACION DIAGONAL*/
+
+.base-formacion{
+    width: 100%;
+    height: 22vh;
+    background: var(--colorOscuroBackground);   
+    clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%, 50% 90%);
+    position: absolute;
+    bottom: 0;
 }
