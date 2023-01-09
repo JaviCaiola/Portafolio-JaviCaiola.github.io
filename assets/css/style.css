@@ -24,3 +24,13 @@
 @keyframes blink{
     50%{border-color: transparent;}
 }
+.titulo{
+    font-family: var(--fuente-titulo);
+    font-weight: bold;
+}
+.parrafo{
+    font-family: var(--fuente-parrafo);
+}
+section [id] {
+    scroll-margin-top: 10px;
+}

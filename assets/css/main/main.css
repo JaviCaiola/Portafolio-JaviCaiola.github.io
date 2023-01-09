@@ -44,16 +44,6 @@ video{
     padding: 15vh;
     border-radius: 50%;
 }
-
-.titulo {
-    text-align: center;
-    font-family: var(--fuente-titulo);
-}
-
-.presentacion {
-    font-weight: bold;
-}
-
 #bash {
     margin-top: 22vh;
 }

@@ -8,10 +8,21 @@
 }
 .contenido-formacion{
     text-align: center;
-    padding-top: 20vh;
+    padding-top: 1vh;
+    color: #ffffff;
 }
-.parrafo{
-    margin: 0 10vh;
+.contenido-formacion h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+}
+#txt-formacion{
+    margin: 0 25vh;
+}
+.img-formacion{
+    max-height: 15vh;
+    border-radius: 6px;
+    margin: 3rem 1rem 0 1rem;
+    cursor: pointer;
 }
 /* DISEÑO DE LA BASE FORMACION DIAGONAL*/
 

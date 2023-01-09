@@ -19,12 +19,19 @@
     <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/main/Formacion.css">
     <link rel="stylesheet" href="./assets/css/footer/rodapie.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Overpass+Mono&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./recursos/fontello-2d8bd064/css/fontello.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FUENTE DE LOS TITULOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital@1&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital@1&display=swap'); </style>
+    <!--FUENTE DE LOS PARRAFOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); </style>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
     <title>Home - Javi Caiola</title>
 
 </head>
@@ -59,19 +66,19 @@
                     <img class="foto__perfil">
                 </div>
                 <div class="titulo">
-                    <h1 class="presentacion">Hola Soy Javier!</h1>
+                    <h1 class="titulo">Hola Soy Javier!</h1>
                     <span class="descripcion">Me gusta programar</span>
                 </div>
                 <div class="container" id="bash">
                     <ul class="row bash-row">
                         <li class="col bash-col">
-                            <a href="">Sobre Mi</a>
+                            <a href="#sobremi">Sobre Mi</a>
                         </li>
                         <li class="col bash-col">
-                            <a>Skills</a>
+                            <a href="#habilidades">Skills</a>
                         </li>
                         <li class="col bash-col">
-                            <a>Formacion</a>
+                            <a href="#educacion">Formacion</a>
                         </li>
                         <li class="col bash-col">
                             <a>Proyectos</a>
@@ -87,19 +94,19 @@
             </video>
             <div class="capa"></div>
         </section>
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobremi">
             <img src="./recursos/img/jujuyrgb.png" alt="foto jujuy rgb" class="img-logo img-jujuy" data-aos="flip-right" data-aos-duration="2000">
             
             <article class="articulo-sobremi" data-aos="fade-up" data-aos-duration="2000">
-                <h1 class="presentacion titulo-sobremi">Sobre Mi</h1>
-                <p class="biograph">Soy de Jujuy Argentina, me gusta el deporte motor desde siempre y a la par desarrolle un gusto por la tecnologia, quieriendo siempre saber como funcionan las cosas”</p>
-                <p class="biograph">Me gusta la musica, tanto que se tocar Charango, Guitarra,  Quena, Flauta</p>
+                <h1 class="titulo">Sobre Mi</h1>
+                <p class="parrafo">Soy de Jujuy Argentina, me gusta el deporte motor desde siempre y a la par desarrolle un gusto por la tecnologia, quieriendo siempre saber como funcionan las cosas”</p>
+                <p class="parrafo">Me gusta la musica, tanto que se tocar Charango, Guitarra,  Quena, Flauta</p>
             </article>
         </section>
-        <section class="skills">
+        <section class="skills" id="habilidades">
             <div class="container skills-image">
-                <h1 class="titulo-skills"">Skills</h1>
-                <ul class="skill-row">
+                <h1 class="titulo" data-aos="fade-up">Skills</h1>
+                <ul class="skill-row" data-aos="zoom-in">
                     <img src="./recursos/img/html-5.png" alt="html" class="col img-skil">
                     <img src="./recursos/img/css-3.png" alt="css" class="col img-skil">
                     <img src="./recursos/img/js.png" alt="javascript" class="col img-skil">
@@ -110,12 +117,12 @@
             </div>
             <img src="./recursos/gif/Gato-typing.gif" alt="imagen-bola" class="img-bola">
         </section>
-        <section class="formacion">
+        <section class="formacion" id="educacion">
             <div class="contenido-formacion">
-                <h1 class="titulo">Formacion</h1>
-                <p class="parrafo">De la mano de los programas de capacitacion: ONE Next Education(Oracle), y Argentina Programa(Ministerio de Desarrollo), eh tenido una gratificante ruta de aprendizaje, en la que desarrole una nueva forma de ver Al Mundo.</p>
-                <img src="" alt="">
-                <img src="" alt="">
+                <h1 class="titulo" data-aos="fade-up">Formacion</h1>
+                <p class="parrafo" id="txt-formacion" data-aos="fade-up">De la mano de los programas de capacitacion: ONE Next Education(Oracle), y Argentina Programa(Ministerio de Desarrollo), eh tenido una gratificante ruta de aprendizaje, en la que desarrole una nueva forma de ver Al Mundo.</p>
+                <img src="./recursos/img/Argentina Programa.jpg" alt="Argentina Programa" class="img-formacion" data-aos="fade-right">
+                <img src="./recursos/img/OracleNext.jpg" alt="Oracle next Education" class="img-formacion" data-aos="fade-left">
             </div>
             <div class="base-formacion"></div>
         </section>
