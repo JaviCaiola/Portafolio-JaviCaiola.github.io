@@ -7,16 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/nav.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
     <link rel="stylesheet" href="./assets/css/main/mainMobile.css">
     <link rel="stylesheet" href="./assets/css/main/sobre-mi.css">
     <link rel="stylesheet" href="./assets/css/main/skills.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/main/Formacion.css">
     <link rel="stylesheet" href="./assets/css/footer/rodapie.css">
     <link rel="stylesheet" href="./recursos/fontello-2d8bd064/css/fontello.css">
@@ -26,36 +23,24 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital@1&display=swap'); </style>
     <!--FUENTE DE LOS PARRAFOS-->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <style> @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); </style>
-    <style>
-        html{
-            scroll-behavior: smooth;
-        }
-    </style>
     <title>Home - Javi Caiola</title>
 
 </head>
 
 <body>
     <header class="header">
-        <img src="D:\Portafolio\recursos\img\logo_portaf.png" alt="logo portafolio" class="img-logo">
-        <div class="btn-menu">
-            <label for="btn-menu" class="demo-icon icon-home-outline"></label>
-        </div>
-
-
-        <input type="checkbox" id="btn-menu">
-        <div class="container-menu">
-            <div class="cont-menu">
-                <nav>
-                    <a href="#">Contacto</a>
-                    <a href="#">Linkedin</a>
-                    <a href="#">GitHub</a>
-                    <a href="#">Instagram</a>
-                </nav>
-                <label for="btn-menu">✖️</label>
+       <nav class="nav__padre">
+            <div class="nav__logo">
+                <img src="./recursos/img/logo_portaf.png" alt="logo jav caiola" class="logo_portaf">
             </div>
-        </div>
+            <ul class="nav__contacto">
+                <li><a href="">contacto</a></li>
+                <li><a href="" class="github"></a></li>
+                <li><a href="" class="linkedin"></a></li>
+            </ul>
+       </nav>
     </header>
 
     <main class="main">
@@ -106,13 +91,13 @@
         <section class="skills" id="habilidades">
             <div class="container skills-image">
                 <h1 class="titulo" data-aos="fade-up">Skills</h1>
-                <ul class="skill-row" data-aos="zoom-in">
-                    <img src="./recursos/img/html-5.png" alt="html" class="col img-skil">
-                    <img src="./recursos/img/css-3.png" alt="css" class="col img-skil">
-                    <img src="./recursos/img/js.png" alt="javascript" class="col img-skil">
-                    <img src="./recursos/img/Git-Icon.png" alt="git" class="col img-skil">
-                    <img src="./recursos/img/java-logo.png" alt="java" class="col img-skil">
-                    <img src="./recursos/img/Bootstrap.png" alt="bootstrap" class="col img-skil">
+                <ul class="skill-row" >
+                    <img src="./recursos/img/html-5.png" alt="html" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                    <img src="./recursos/img/css-3.png" alt="css" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    <img src="./recursos/img/js.png" alt="javascript" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                    <img src="./recursos/img/Git-Icon.png" alt="git" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="./recursos/img/java-logo.png" alt="java" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
+                    <img src="./recursos/img/Bootstrap.png" alt="bootstrap" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 </ul>
             </div>
             <img src="./recursos/gif/Gato-typing.gif" alt="imagen-bola" class="img-bola">
@@ -133,14 +118,13 @@
             <p class="derechos">Copyrigth &copy 2023</p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
-<!--<img src="./recursos/gif/AE86.gif" alt="AE86" class="ae86">-->

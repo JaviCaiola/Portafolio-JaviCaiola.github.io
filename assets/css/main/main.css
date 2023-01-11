@@ -1,11 +1,13 @@
 .main {
     width: 100%;
     text-align: center;
+    padding-top: 10vh;
 }
 
 .pagina__inicial {
     color: #ffffff;
-    min-height: 89vh;
+    min-height: 90vh;
+    
     position: relative;
 
 }

@@ -1,4 +1,10 @@
 .header{
     background: #1c1c1c;
-    height: 11vh;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.navbar{
+    z-index: -1;
 }
