@@ -23,13 +23,14 @@
     border-radius: 6px;
     margin: 3rem 1rem 0 1rem;
     cursor: pointer;
+    overflow: hidden;
 }
 /* DISEÑO DE LA BASE FORMACION DIAGONAL*/
 
 .base-formacion{
     width: 100%;
     height: 22vh;
-    background: var(--colorOscuroBackground);   
+    background: var(--fondoOscuro);   
     clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%, 50% 90%);
     position: absolute;
     bottom: 0;

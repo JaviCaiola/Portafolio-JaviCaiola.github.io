@@ -1,6 +1,19 @@
-.header{
+.nav__padre{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .img-logo{
     height: 10vh;
+}
+.github{
+    background: url("../../../recursos/img/GitHub.png") no-repeat;
+    background-size: 100%;
+    padding: 2vh 2vh;
+}
+
+.linkedin{
+    background: url("../../../recursos/img/linkedin.png") no-repeat;
+    background-size: 100%;
+    padding: 3vh;
 }

@@ -7,7 +7,7 @@ html{
 :root{
     --fuente-titulo: 'Bai Jamjuree', sans-serif;
     --fuente-parrafo: 'Abel', sans-serif;
-    --colorOscuroBackground: #1C1C1C;
+    --fondoOscuro: #1C1C1C;
     --texto-claro: rgb(255, 255, 255);
     --fondoNaranja : rgb(255, 132, 0);
 }

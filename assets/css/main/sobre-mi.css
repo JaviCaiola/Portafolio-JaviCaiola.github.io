@@ -1,6 +1,6 @@
 .sobre-mi{
     display: flex;
-    background: var(--colorOscuroBackground);
+    background: var(--fondoOscuro);
     color: var(--texto-claro);
     align-items: center;
     height: 100vh;
