@@ -1,10 +1,11 @@
 .proyectos{
     height: 110vh;
     background: var(--fondoOscuro);
-    color: var(--texto-claro);
+    
 }
 .t-project{
     padding: 5vh 0;
+    color: var(--fondoNaranja);
 }
 .img-proyectos{
     height: 70vh;

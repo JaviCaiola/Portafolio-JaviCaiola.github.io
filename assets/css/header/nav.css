@@ -4,16 +4,28 @@
     align-items: center;
 }
 .img-logo{
-    height: 10vh;
+    height: 9vh;
+    margin: 0 auto;
 }
-.github{
-    background: url("../../../recursos/img/GitHub.png") no-repeat;
-    background-size: 100%;
-    padding: 2vh 2vh;
+.lista__contacto{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.lista__contacto a{
+    margin: 0 .2rem;
+    align-items: baseline;
+}
+.reset-link{
+    color: var(--texto-claro);
+    text-decoration: none;
+    transition: .4s all;
+}
+.reset-link:hover{
+    border-bottom: 1px solid #ff8000;
+    color: #b0b0b0;
 }
 
-.linkedin{
-    background: url("../../../recursos/img/linkedin.png") no-repeat;
-    background-size: 100%;
-    padding: 3vh;
+.img-contacto{
+    height: 7vh;
 }
