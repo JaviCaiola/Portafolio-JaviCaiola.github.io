@@ -1,4 +1,12 @@
 .proyectos{
-    height: 100vh;
+    height: 110vh;
     background: var(--fondoOscuro);
+    color: var(--texto-claro);
+}
+.t-project{
+    padding: 5vh 0;
+}
+.img-proyectos{
+    height: 70vh;
+    margin: 0 auto;
 }
