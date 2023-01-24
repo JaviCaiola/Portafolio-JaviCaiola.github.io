@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./recursos/img/logo_portaf.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -34,9 +35,9 @@
     <header class="header">
        <nav class="nav__padre">
             <div class="nav__logo">
-                <img src="./recursos/img/logo_portaf.png" alt="logo jav caiola" class="img-logo">
+                <a href="#main"><img src="./recursos/img/logo_portaf.png" alt="logo jav caiola" class="img-logo"></a>
             </div>
-            <div class="lista__contacto">
+            <div class="lista__contacto parrafo">
                 <a href="./pages/formularioContacto.html" class="reset-link">Contactame</a>
                 <a href="https://github.com/JaviCaiola"><img src="./recursos/img/GitHub.png" alt="github" class="img-contacto"></a>
                 <a href="https://www.linkedin.com/in/javier-canchi-3aa612245"><img src="./recursos/img/linkedin.png" alt="linkedin" class="img-contacto"></a>
@@ -44,7 +45,7 @@
        </nav>
     </header>
 
-    <main class="main">
+    <main class="main" id="main">
 
         <section class="pagina__inicial">
             <div class="contenidomain">
@@ -55,7 +56,7 @@
                     <h1 class="titulo">Hola Soy Javier!</h1>
                     <span class="descripcion">Me gusta programar</span>
                 </div>
-                <div class="container" id="bash">
+                <div class="container parrafo" id="bash">
                     <ul class="row bash-row">
                         <li class="col bash-col">
                             <a href="#sobremi">Sobre Mi</a>
@@ -67,7 +68,7 @@
                             <a href="#educacion">Formacion</a>
                         </li>
                         <li class="col bash-col">
-                            <a href="#">Proyectos</a>
+                            <a href="#educacion">Proyectos</a>
                         </li>
                         <li class="col bash-col">
                             <a>CV</a>
@@ -85,15 +86,15 @@
             
             <article class="articulo-sobremi" data-aos="fade-up" data-aos-duration="2000">
                 <h1 class="titulo">Sobre Mi</h1>
-                <p class="parrafo">Soy de Jujuy Argentina, me gusta el deporte motor desde siempre y a la par desarrolle un gusto por la tecnologia, quieriendo siempre saber como funcionan las cosas”</p>
-                <p class="parrafo">Me gusta la musica, tanto que se tocar Charango, Guitarra,  Quena, Flauta</p>
+                <p class="parrafo">Soy de Jujuy Argentina, actualmente soy estudiante de desarrollo web en dos <a href="#educacion" class="reset-link">Grandes programas de capacitacion</a> y voy en busca de nuevas oportunidades</p>
+                <p class="parrafo">Como Hobbies me gusta ver la F1 y los coches, tocar la guitarra, el charango o la zampoña y andar en bici hasta desvanecer.</p>
             </article>
         </section>
         <section class="skills" id="habilidades">
             <div class="container skills-image">
                 <h1 class="titulo" data-aos="fade-up">Skills</h1>
                 <ul class="skill-row" >
-                    <img src="./recursos/img/html-5.png" alt="html" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+                    <img src="./recursos/img/html-5.png" alt="html by riajulislam" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                     <img src="./recursos/img/css-3.png" alt="css" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <img src="./recursos/img/js.png" alt="javascript" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                     <img src="./recursos/img/Git-Icon.png" alt="git" class="col img-skil" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -105,10 +106,12 @@
         </section>
         <section class="formacion" id="educacion">
             <div class="contenido-formacion">
-                <h1 class="titulo" data-aos="fade-up">Formacion</h1>
-                <p class="parrafo" id="txt-formacion" data-aos="fade-up">De la mano de los programas de capacitacion: ONE Next Education(Oracle), y Argentina Programa(Ministerio de Desarrollo), eh tenido una gratificante ruta de aprendizaje, en la que desarrole una nueva forma de ver Al Mundo.</p>
-                <img src="./recursos/img/Argentina Programa.jpg" alt="Argentina Programa" class="img-formacion" data-aos="fade-right">
-                <img src="./recursos/img/OracleNext.jpg" alt="Oracle next Education" class="img-formacion" data-aos="fade-left">
+                <div class="txt-formacion">
+                    <h1 class="titulo" data-aos="fade-up">Formacion</h1>
+                    <p class="parrafo" id="txt-formacion" data-aos="fade-up">De la mano de los programas de capacitacion: ONE Next Education(Oracle), y Argentina Programa(Ministerio de Desarrollo), eh tenido una gratificante ruta de aprendizaje, en la que desarrole una nueva forma de ver Al Mundo.</p>
+                </div>
+                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"><img src="./recursos/img/Argentina Programa.jpg" alt="Argentina Programa" class="img-formacion" data-aos="fade-right"></a>
+                <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank"><img src="./recursos/img/OracleNext.jpg" alt="Oracle next Education" class="img-formacion" data-aos="fade-left"></a>                 
             </div>
             <div class="base-formacion"></div>
         </section>
@@ -125,7 +128,7 @@
                     <div class="capa w-75 c2"></div>
                     <div class="carousel-caption d-none d-md-block">
                       <h1 class="titulo">Encriptador de Texto</h1>
-                      <p>Some representative placeholder content for the first slide.</p>
+                      <p class="parrafo">Some representative placeholder content for the first slide.</p>
                     </div>
                   </div>
                   <div class="carousel-item " >
@@ -148,7 +151,7 @@
               </div>
         </section>
     </main>
-    <footer class="rodapie parrafo>
+    <footer class="rodapie parrafo">
         <div>
             <a href="" class="boton-contacto reset-link">Contacto</a>
         </div>

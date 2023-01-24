@@ -22,8 +22,11 @@
     max-height: 15vh;
     border-radius: 6px;
     margin: 3rem 1rem 0 1rem;
-    cursor: pointer;
     overflow: hidden;
+}
+.img-formacion:hover{
+    padding: .1rem;
+
 }
 /* DISEÑO DE LA BASE FORMACION DIAGONAL*/
 
