@@ -33,12 +33,22 @@ video{
     background: linear-gradient(#0000002a, #000000);
 }
 .formulario__contacto{
-    height: 90vh;
+    height: 75vh;
     background: var(--fondoNaranja);
+    padding-top: 15vh;
+}
+.mb-3{
+    padding-top: 1rem;
+}
+.input-group-text{
+    background-color: var(--fondoOscuro);
+    color:var(--texto-claro);
+    border: none;
+    border-radius: .4rem;
 }
 .form-position{
     justify-content: center;
-    left: 15%;
+    left: 12.5%;
 }
 .base-form{
     width: 100%;
