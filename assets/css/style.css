@@ -10,6 +10,7 @@ html{
     --fondoOscuro: #1C1C1C;
     --texto-claro: rgb(255, 255, 255);
     --fondoNaranja : rgb(255, 132, 0);
+    --cian: rgba(0, 255, 251);
 }
 
 .descripcion{

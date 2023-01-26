@@ -22,7 +22,7 @@
     transition: .4s all;
 }
 .reset-link:hover{
-    border-bottom: 1px solid #ff8000;
+    border-bottom: 1px solid var(--cian);
     color: #b0b0b0;
 }
 
