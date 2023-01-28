@@ -6,7 +6,7 @@
 
 .pagina__inicial {
     color: #ffffff;
-    min-height: 40vh;
+    min-height: 80vh;
     
     position: relative;
 
@@ -14,7 +14,12 @@
 .contenidomain{
     position: relative;
     z-index: 2;
-    padding-top: 10vh;
+    padding-top: 30vh;
+}
+.parrafo1{
+    font-family: 'Abel', sans-serif;
+    font-size: 5vh;
+    font-weight: 200;
 }
 video{
     position: absolute;
