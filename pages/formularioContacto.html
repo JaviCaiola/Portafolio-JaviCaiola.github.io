@@ -60,21 +60,24 @@
             <div class="capa"></div>
             <div class="base-form"></div>
         </section>
-        <form action="" class="formulario__contacto parrafo">
+        <form action="https://formsubmit.co/javiteen1250@gmail.com" method="POST" class="formulario__contacto parrafo">
             <div class="input-group mb-3 w-75 form-position">
                 <span class="input-group-text" id="basic-addon1">Email</span>
-                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" required>
+                <input type="email" name="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" required>
                 
             </div>
             <div class="input-group mb-3 w-75 form-position">
                 <span class="input-group-text" id="basic-addon1">Nombre y<br> Apellido</span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" name="name" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
             </div>
             <div class="input-group w-75 form-position">
                 <span class="input-group-text">Deja tu <br>Mensaje</span>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <textarea name="comments" class="form-control" aria-label="With textarea"></textarea>
             </div>
-            <button class="boton-Enviar">Enviar</button>
+            <button type="submit" class="boton-Enviar">Enviar</button>
+
+            <input type="hidden" name="_next" value="">
+            <input type="hidden" name="_captcha" value="false">
         </form>
     </main>
     <footer class="rodapie parrafo">
