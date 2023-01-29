@@ -41,7 +41,16 @@
     .nav__padre{
         display: none;
     }
+    .nav2page{
+        display: flex;
+        background-color: #1c1c1c;
+    }
     .navbar-toggler{
         font-size: 2.5vh;
+    }
+    .navbar{
+        
+        padding-top: 0.2rem;
+        padding-bottom: 0.1rem;
     }
 }
