@@ -29,8 +29,19 @@
 .img-contacto{
     height: 7vh;
 }
+@media screen and (min-width:400px) {
+    .nav2page{
+        display: none;
+    }
+}
 @media screen and (max-width:400px) {
     .lista__contacto{
         display: none;
+    }
+    .nav__padre{
+        display: none;
+    }
+    .navbar-toggler{
+        font-size: 2.5vh;
     }
 }
