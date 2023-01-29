@@ -5,6 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    width: 100%;
 }
 .contenido-formacion{
     text-align: center;
@@ -16,7 +17,8 @@
     font-weight: bold;
 }
 #txt-formacion{
-    margin: 0 25vh;
+    margin: 0 auto;
+    padding: 0 6vh;
 }
 .img-formacion{
     max-height: 15vh;
@@ -32,9 +34,18 @@
 
 .base-formacion{
     width: 100%;
-    height: 22vh;
+    height: 23vh;
     background: var(--fondoOscuro);   
     clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%, 50% 90%);
     position: absolute;
-    bottom: 0;
+    bottom: 0.0;
+}
+@media screen and (max-width:400px){
+    .formacion{
+        height: 120vh;
+    }
+    .formacion-img{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -9,6 +9,9 @@
 .skill-row{
     margin: 2rem 0;
 }
+ol, ul{
+    padding-left: 0;
+}
 .img-skil{
     width: 2.4rem;
     height: 2.4rem;
@@ -18,4 +21,7 @@
     float: right;
     height: 35vh;
     margin: 0 1rem;
+}
+@media screen and (max-width:400px){
+    
 }

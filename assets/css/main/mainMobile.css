@@ -30,10 +30,29 @@
         border-radius: 5px;
     }
     .bash-col:hover{
-        background:rgba(255, 136, 1, 0.411);
+        background:rgba(0, 255, 251, 0.197);
         transform: translate(3px);
         transition: none;
     }
 
     /*BARRA DE SELECCION MAIN*/
+
+    /*Seccion Sobre Mi*/
+    
+    .img-bola{
+        display: none;
+    }
+    .sobre-mi{
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .articulo-sobremi{
+        padding-top: 4rem;
+    }
+    .img-jujuy{
+        height: 20vh;
+        margin-top: 5vh;
+    }
+    
 }

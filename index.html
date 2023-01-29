@@ -8,16 +8,17 @@
     <link rel="icon" href="./recursos/img/logo_portaf.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/header/nav.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
-    <link rel="stylesheet" href="./assets/css/main/mainMobile.css">
     <link rel="stylesheet" href="./assets/css/main/sobre-mi.css">
     <link rel="stylesheet" href="./assets/css/main/skills.css">
     <link rel="stylesheet" href="./assets/css/main/Formacion.css">
     <link rel="stylesheet" href="./assets/css/footer/rodapie.css">
     <link rel="stylesheet" href="./assets/css/main/proyectos.css">
+    <link rel="stylesheet" href="./assets/css/main/mainMobile.css">
     <link rel="stylesheet" href="./recursos/fontello-2d8bd064/css/fontello.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- FUENTE DE LOS TITULOS-->
@@ -25,7 +26,6 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital@1&display=swap'); </style>
     <!--FUENTE DE LOS PARRAFOS-->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <style> @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); </style>
     <title>Home - Javi Caiola</title>
 
@@ -82,13 +82,14 @@
             <div class="capa"></div>
         </section>
         <section class="sobre-mi" id="sobremi">
-            <img src="./recursos/img/jujuyrgb.png" alt="foto jujuy rgb" class="img-logo img-jujuy" data-aos="flip-right" data-aos-duration="2000">
             
             <article class="articulo-sobremi" data-aos="fade-up" data-aos-duration="2000">
                 <h1 class="titulo">Sobre Mi</h1>
                 <p class="parrafo">Soy de Jujuy Argentina, actualmente soy estudiante de desarrollo web en dos <a href="#educacion" class="reset-link">Grandes programas de capacitacion</a> y voy en busca de nuevas oportunidades</p>
                 <p class="parrafo">Como Hobbies me gusta ver la F1 y los coches, tocar la guitarra, el charango o la zampoña y andar en bici hasta desvanecer.</p>
             </article>
+            <img src="./recursos/img/jujuyrgb.png" alt="foto jujuy rgb" class="img-logo img-jujuy" data-aos="flip-right" data-aos-duration="2000">
+            
         </section>
         <section class="skills" id="habilidades">
             <div class="container skills-image">
@@ -110,8 +111,11 @@
                     <h1 class="titulo" data-aos="fade-up">Formacion</h1>
                     <p class="parrafo" id="txt-formacion" data-aos="fade-up">De la mano de los programas de capacitacion: ONE Next Education(Oracle), y Argentina Programa(Ministerio de Desarrollo), eh tenido una gratificante ruta de aprendizaje, en la que desarrole una nueva forma de ver Al Mundo.</p>
                 </div>
-                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"><img src="./recursos/img/Argentina Programa.jpg" alt="Argentina Programa" class="img-formacion" data-aos="fade-right"></a>
-                <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank"><img src="./recursos/img/OracleNext.jpg" alt="Oracle next Education" class="img-formacion" data-aos="fade-left"></a>                 
+                <div class="formacion-img">
+                    <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"><img src="./recursos/img/Argentina Programa.jpg" alt="Argentina Programa" class="img-formacion" data-aos="flip-left"></a>
+                    <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank"><img src="./recursos/img/OracleNext.jpg" alt="Oracle next Education" class="img-formacion" data-aos="flip-right"></a>
+                    <!--data-aos="fade-left" or rigth-->
+                </div>                 
             </div>
             <div class="base-formacion"></div>
         </section>

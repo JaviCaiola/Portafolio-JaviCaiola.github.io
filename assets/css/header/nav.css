@@ -29,3 +29,8 @@
 .img-contacto{
     height: 7vh;
 }
+@media screen and (max-width:400px) {
+    .lista__contacto{
+        display: none;
+    }
+}
